@@ -13,3 +13,6 @@
       text-align: center;
       margin-top: 2rem;
       color: #fff; }
+
+.header__navbar__wrapper__container li {
+  margin-left: 2rem; }
