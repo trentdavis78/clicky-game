@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="footer">
-        <div class="footer__bottom">
+    <footer className="footer">
+        <div className="footer__bottom">
             <p>Clicky Game!</p>
         </div>
     </footer>
