@@ -1,11 +1,17 @@
+.color-primary {
+  color: #1D428A; }
+
+.color-primary-bg {
+  background-color: #1D428A; }
+
 .footer {
-  background-color: #80c883;
+  background-color: #2a60c9;
   position: relative;
   height: 10rem; }
   .footer__bottom {
     position: absolute;
     bottom: 0;
-    background-color: #4CAF50;
+    background-color: #1D428A;
     width: 100%;
     height: 5rem; }
     .footer__bottom p {
@@ -24,15 +30,15 @@
   font-size: 2rem; }
 
 .card__div {
+  height: 150px;
   width: 150px;
   margin: 20px auto;
-  padding: 20px;
   border: 1px solid #bfbfbf;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #bfbfbf;
   cursor: pointer; }
 
 .card__img {
-  height: 100px;
-  width: 100px;
-  object-fit: contain; }
+  height: 100%;
+  width: 100%;
+  border-radius: 5px; }

@@ -5,7 +5,7 @@ const Header = props =>
         <div className="header">
             <div className="navbar-fixed header__navbar">
                 <nav>
-                    <div className="nav-wrapper green header__navbar__wrapper">
+                    <div className="nav-wrapper color-primary-bg header__navbar__wrapper">
                         <div className="container header__navbar__wrapper__container">
                             <a href="/" className="brand-logo">Clicky Game</a>       
                             <div className="headerMsg">{props.headerMsg}</div>                     
