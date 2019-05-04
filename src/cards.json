@@ -3,85 +3,85 @@
       "id": 1,
       "name": "Kyrie-Irving",
       "image": "/images/kyrie.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 2,
       "name": "Anthony-Davis",
       "image": "/images/davis.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 3,
       "name": "Kevin-Durant",
       "image": "/images/durant.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 4,
       "name": "Joel-Embiid",
       "image": "/images/embiid.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 5,
       "name": "Giannis-Antetokounmpo",
       "image": "/images/giannis.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 6,
       "name": "James-Harden",
       "image": "/images/harden.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 7,
       "name": "Kawhi-Leonard",
       "image": "/images/kawhi.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 8,
       "name": "Kemba-Walker",
       "image": "/images/kemba.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 9,
       "name": "Lebron-James",
       "image": "/images/lebron.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 10,
       "name": "Damian-Lilliard",
       "image": "/images/lilliard.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 11,
       "name": "Stephen-Curry",
       "image": "/images/steph.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     },
     {
       "id": 12,
       "name": "Russell-Westbrook",
       "image": "/images/westbrook.jpg",
-      "clicked": false,
-      "status":0
+      "clicked": false
+      
     }
   ]
   
