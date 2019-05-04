@@ -1,16 +1,8 @@
 import React, { Component } from 'react';
 
 class Card extends Component {
-  
-  
-    state = {
-        test: 1               
-    };
 
     render(){
-
-
-    console.log(this.state.test);
     
         return (
             <div className="card__div" key={this.props.id}>
