@@ -36,7 +36,6 @@ class App extends Component {
 
   componentDidMount() {
     this.setState({ cards: shuffle(this.state.cards)});
-    console.log("first shuffle array : ", this.state.cards);
   }
 
   
@@ -50,14 +49,14 @@ class App extends Component {
     this.setState({
       cards: restArray,
       currentScore: 0,
-      navCenter: "Click an Image to begin!!",
+      headerMsg: "Click an Image to begin!!",
     })
 
     alert("you have already clicked!! Game Over!!!");
     return true;
   };
 
-  addSomeScore = () =>{
+  updateScore = () =>{
     if(this.state.currentScore === this.state.topScore){
       this.setState({
         currentScore: this.state.currentScore + 1,
@@ -74,15 +73,13 @@ class App extends Component {
   }
 
   handleClickevent = id => {
-    console.log("what is this ID for:" , id);
     var newArray = this.state.cards.map((item , i ) => {
-      // console.log("this is item: " , item);
       if(item.id === id){
         if(item.clicked === true){
           this.gameOver();
         }else{
           item.clicked = true;
-          this.addSomeScore();
+          this.updateScore();
         }
       }
 
@@ -90,10 +87,9 @@ class App extends Component {
     });
     this.setState({
       cards:shuffle(newArray),
-      navCenter:"You guessed correctly!!"
+      headerMsg:"You guessed correctly!!"
     });
 
-    console.log("the new array: " , this.state.cards);
   };
 
   render() {
