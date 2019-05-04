@@ -55,7 +55,6 @@ class App extends Component {
       headerMsg: "Click an Image to begin!!",
     })
 
-    alert("you have already clicked!! Game Over!!!");
     return true;
   };
 
@@ -64,11 +63,13 @@ class App extends Component {
       this.setState({
         currentScore: this.state.currentScore + 1,
         topScore: this.state.topScore + 1,
+        headerMsg:"You guessed correctly!!"
       })
 
     }else if(this.state.currentScore < this.state.topScore){
       this.setState({
         currentScore: this.state.currentScore + 1,
+        headerMsg:"You guessed correctly!!"
       })
     }
     
@@ -79,7 +80,7 @@ class App extends Component {
     var newArray = this.state.cards.map((item , i ) => {
       if(item.id === id){
         if(item.clicked === true){
-          this.gameOver();
+          this.gameOver();          
         }else{
           item.clicked = true;
           this.updateScore();
@@ -89,8 +90,7 @@ class App extends Component {
       return item;
     });
     this.setState({
-      cards:shuffle(newArray),
-      headerMsg:"You guessed correctly!!"
+      cards:shuffle(newArray)     
     });
 
   };
