@@ -24,14 +24,17 @@ function shuffle(array) {
   return array;
 }
 
+let currentScore = 0;
+let topScore = 0;
+
 class App extends Component {
   
   
   state = {
     cards,
     headerMsg: "Click an image to begin!",
-    currentScore: 0,
-    topScore: 0
+    currentScore,
+    topScore
   };
 
   componentDidMount() {
@@ -103,7 +106,7 @@ class App extends Component {
        <div className="container">
        <Row>
           {this.state.cards.map( (card, i) => (
-            <Col size={"3"}>
+            <Col size={"3"} key={i}>
               <Card 
               name={card.name}
               image={card.image}
